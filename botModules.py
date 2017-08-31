@@ -39,7 +39,7 @@ def tyt_bot(r, comments_replied):
 
                 comments_replied.append(comment.id)
 
-                with open('Macintosh HD/Users/bhidalgo/Documents/github_local/PythonScripts/tytonredditBot/Logs/comments_replied.txt', 'a') as f:
+                with open('comments_replied.txt', 'a') as f:
                     f.write(comment.id + '\n')
 
 
